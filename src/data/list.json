@@ -1,27 +1,25 @@
-[
-    {
-        "img":"./img/eat.png",
-        "name":"华莱士",
-        "price":13,
-        "door":31,
-        "num":4321
-    },{
-        "img":"./img/eat.png",
-        "name":"华莱士",
-        "price":13,
-        "door":31,
-        "num":4321
-    },{
-        "img":"./img/eat.png",
-        "name":"华莱士",
-        "price":13,
-        "door":31,
-        "num":4321
-    },{
-        "img":"./img/eat.png",
-        "name":"华莱士",
-        "price":13,
-        "door":31,
-        "num":4321
-    }
-]
+[{
+    "img": "./img/eat.png",
+    "name": "华莱士",
+    "price": 13,
+    "door": 31,
+    "num": 4321
+}, {
+    "img": "./img/eat.png",
+    "name": "哈哈哈哈",
+    "price": 26,
+    "door": 31,
+    "num": 4321
+}, {
+    "img": "./img/eat.png",
+    "name": "肯德基",
+    "price": 32,
+    "door": 56,
+    "num": 6666
+}, {
+    "img": "./img/eat.png",
+    "name": "德克士",
+    "price": 18,
+    "door": 65,
+    "num": 3562
+}]
