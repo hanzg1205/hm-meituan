@@ -1,0 +1,341 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+}
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper .header {
+  width: 100%;
+  height: 1.06667rem;
+  background: #00c3b1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.26667rem;
+}
+
+.wrapper .header .logo {
+  width: 1.06667rem;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: 1.06667rem;
+  font-size: 0.4rem;
+}
+
+.wrapper .header .code {
+  width: 1.06667rem;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: 1.06667rem;
+}
+
+.wrapper .header .code i {
+  font-size: 0.53333rem;
+}
+
+.wrapper .header .ipt {
+  flex: 1;
+  background: #00a697;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  margin: 0 0.26667rem;
+  position: relative;
+}
+
+.wrapper .header .ipt input {
+  width: 100%;
+  height: 100%;
+  padding-left: 0.4rem;
+}
+
+.wrapper .main {
+  flex: 1;
+  overflow: hidden;
+}
+
+.wrapper .main .banner {
+  width: 100%;
+}
+
+.wrapper .main .banner img {
+  width: 100%;
+}
+
+.wrapper .main .nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #fff;
+  padding-bottom: 0.53333rem;
+}
+
+.wrapper .main .nav li {
+  width: 20%;
+  text-align: center;
+  flex-shrink: 0;
+  margin-top: 0.26667rem;
+}
+
+.wrapper .main .nav li p {
+  margin-top: 0.05333rem;
+}
+
+.wrapper .main .nav li img {
+  width: 65%;
+}
+
+.wrapper .main .like-box {
+  margin-top: 0.26667rem;
+  background: #fff;
+  padding: 0.26667rem;
+}
+
+.wrapper .main .like-box h2 {
+  color: #333;
+  font-size: 0.48rem;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+  line-height: 1.06667rem;
+}
+
+.wrapper .main .like-box .like-list li {
+  display: flex;
+  padding: 0.13333rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper .main .like-box .like-list li img {
+  width: 2.4rem;
+}
+
+.wrapper .main .like-box .like-list li .like-cont {
+  flex: 1;
+}
+
+.wrapper .main .like-box .like-list li .like-cont h3 {
+  font-size: 0.48rem;
+  line-height: 0.8rem;
+}
+
+.wrapper .main .like-box .like-list li .like-cont p {
+  line-height: 0.69333rem;
+  font-size: 0.37333rem;
+}
+
+.wrapper .main .like-box .like-list li .like-cont .price {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.69333rem;
+}
+
+.wrapper .main .like-box .like-list li .like-cont .price div {
+  font-size: 0.37333rem;
+}
+
+.wrapper .main .like-box .like-list li .like-cont .price div span {
+  color: #00c3b1;
+  font-size: 0.48rem;
+}
+
+.wrapper .main .like-box .like-list li .like-cont .price div em {
+  font-size: 0.37333rem;
+}
